@@ -4,6 +4,7 @@ import About from './components/About'
 import Header from './components/Header'
 import Stack from './components/Stack'
 import Navbar from './components/Navbar'
+import Game from './components/TicTacToe'
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const user = {
@@ -20,6 +21,7 @@ export default function MyApp(){
       <Route path='/' element={<Header/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/stack' element={<Stack/>}/>
+      <Route path='/Game' element={<Game/>}/>
       </Routes>
     </>
   )

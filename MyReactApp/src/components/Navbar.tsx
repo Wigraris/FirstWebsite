@@ -6,6 +6,7 @@ export default function Navbar(){
             <Link to = '/' className ='hover: text-blue-400'>Главная</Link>
             <Link to = '/about' className ='hover: text-blue-400'>Обо мне</Link>
             <Link to = '/stack' className ='hover: text-blue-400'>Стэк</Link>
+            <Link to ='/game' className='hover: text-green-400'>Игра</Link>
         </nav>
     )
 }
